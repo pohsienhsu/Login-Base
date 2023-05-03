@@ -11,7 +11,6 @@ const Login = (props) => {
   const [passwordIsValid, setPasswordIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
 
-
   useEffect(() => {
     const timeoutIdentifier = setTimeout(() => {
       console.log("Checking form validaty");
