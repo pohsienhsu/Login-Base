@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './Navigation.module.css';
 
-const Navigation = () => {
+const Navigation = (props) => {
   return (
     <nav className={styles.nav}>
       <ul>
